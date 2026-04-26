@@ -1,0 +1,31 @@
+name: Report a broken or unsafe link
+about: Report a broken, outdated, misleading, or unsafe entry
+labels: [maintenance]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link or entry
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: issue
+    attributes:
+      label: Issue type
+      options:
+        - Broken link
+        - Outdated project
+        - Unsafe or suspicious destination
+        - Misleading description
+        - Duplicate entry
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Tell us what should be fixed or removed.
+    validations:
+      required: true

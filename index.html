@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Awesome Claw — OpenClaw ecosystem directory</title>
+  <meta name="description" content="A community-curated directory of OpenClaw resources, skills, plugins, integrations, deployment templates, workflows, and community projects.">
+  <link rel="canonical" href="https://awesome-claw.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Awesome Claw">
+  <meta property="og:title" content="Awesome Claw — OpenClaw ecosystem directory">
+  <meta property="og:description" content="Discover useful OpenClaw resources, skills, plugins, integrations, deployment templates, workflows, and community projects.">
+  <meta property="og:url" content="https://awesome-claw.com/">
+  <meta property="og:image" content="https://awesome-claw.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Awesome Claw — OpenClaw ecosystem directory">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@awesomeclawhub">
+  <meta name="twitter:title" content="Awesome Claw — OpenClaw ecosystem directory">
+  <meta name="twitter:description" content="A community-curated directory for the OpenClaw ecosystem.">
+  <meta name="twitter:image" content="https://awesome-claw.com/assets/og-image.png">
+  <meta name="theme-color" content="#0d1117">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Awesome Claw",
+      "url": "https://awesome-claw.com/",
+      "description": "A community-curated directory of OpenClaw resources, skills, plugins, integrations, deployment templates, workflows, and community projects.",
+      "sameAs": [
+        "https://github.com/awesome-claw/awesome-claw",
+        "https://x.com/awesomeclawhub"
+      ],
+      "about": {
+        "@type": "SoftwareApplication",
+        "name": "OpenClaw",
+        "url": "https://github.com/openclaw/openclaw"
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: rgba(255, 255, 255, 0.075);
+      --panel-strong: rgba(255, 255, 255, 0.12);
+      --text: #f6f8fa;
+      --muted: #b7c2d0;
+      --line: rgba(255, 255, 255, 0.15);
+      --accent: #ff6b4a;
+      --accent-2: #7dd3fc;
+      --green: #8ce99a;
+      --shadow: 0 22px 80px rgba(0, 0, 0, 0.28);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255, 107, 74, 0.25), transparent 34rem),
+        radial-gradient(circle at 80% 10%, rgba(125, 211, 252, 0.2), transparent 30rem),
+        linear-gradient(135deg, #0d1117 0%, #111827 48%, #1f2937 100%);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.25rem 0;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    .mark {
+      display: grid;
+      place-items: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 0.85rem;
+      background: linear-gradient(135deg, var(--accent), #fb7185);
+      box-shadow: 0 12px 32px rgba(255, 107, 74, 0.35);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-weight: 650;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a:hover { color: var(--text); }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 2rem;
+      align-items: center;
+      padding: 4.5rem 0 3rem;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      gap: 0.5rem;
+      align-items: center;
+      padding: 0.35rem 0.7rem;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--muted);
+      border-radius: 999px;
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 1.15rem 0 1rem;
+      font-size: clamp(2.75rem, 8vw, 5.7rem);
+      line-height: 0.95;
+      letter-spacing: -0.075em;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: clamp(1.08rem, 2vw, 1.35rem);
+      max-width: 46rem;
+      margin: 0 0 1.7rem;
+    }
+
+    .actions {
+      display: flex;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.3rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      border-radius: 999px;
+      padding: 0.82rem 1.05rem;
+      text-decoration: none;
+      font-weight: 800;
+      border: 1px solid var(--line);
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn.primary {
+      background: var(--text);
+      color: #0d1117;
+      border-color: transparent;
+    }
+
+    .btn.secondary { background: rgba(255,255,255,0.08); }
+
+    .fineprint { color: var(--muted); font-size: 0.94rem; }
+
+    .terminal-card {
+      border: 1px solid var(--line);
+      border-radius: 1.5rem;
+      background: rgba(8, 13, 23, 0.72);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      backdrop-filter: blur(18px);
+    }
+
+    .dots { display: flex; gap: 0.45rem; padding: 1rem; border-bottom: 1px solid var(--line); }
+    .dots span { width: 0.72rem; height: 0.72rem; border-radius: 50%; background: #fb7185; }
+    .dots span:nth-child(2) { background: #fbbf24; }
+    .dots span:nth-child(3) { background: #34d399; }
+
+    .terminal-body { padding: 1.2rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.95rem; }
+    .prompt { color: var(--green); }
+    .comment { color: #8b949e; }
+    .linkline { color: var(--accent-2); word-break: break-word; }
+
+    .section { padding: 3rem 0; }
+    .section h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -0.055em; margin: 0 0 0.7rem; }
+    .section p.intro { color: var(--muted); max-width: 42rem; margin: 0 0 1.5rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 1.1rem;
+      padding: 1.1rem;
+      min-height: 10.5rem;
+    }
+
+    .card strong { display: block; margin-bottom: 0.45rem; font-size: 1.05rem; }
+    .card p { color: var(--muted); margin: 0; }
+
+    .featured-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.9rem;
+    }
+
+    .featured-item {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 1rem;
+      padding: 1rem;
+      text-decoration: none;
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+    }
+
+    .featured-item:hover {
+      transform: translateY(-1px);
+      border-color: rgba(255, 255, 255, 0.28);
+      background: rgba(255, 255, 255, 0.09);
+    }
+
+    .featured-item span {
+      display: inline-flex;
+      color: var(--accent-2);
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.35rem;
+    }
+
+    .featured-item strong { display: block; margin-bottom: 0.35rem; }
+    .featured-item p { color: var(--muted); margin: 0; }
+
+    .banner {
+      border: 1px solid var(--line);
+      border-radius: 1.5rem;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, var(--panel-strong), rgba(255,107,74,0.1));
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .banner p { color: var(--muted); margin: 0.25rem 0 0; }
+
+    footer {
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      padding: 1.5rem 0 2rem;
+      margin-top: 2rem;
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 840px) {
+      .hero { grid-template-columns: 1fr; padding-top: 2.5rem; }
+      .grid, .featured-list { grid-template-columns: 1fr; }
+      .nav { align-items: flex-start; flex-direction: column; }
+      .nav-links { justify-content: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="/" aria-label="Awesome Claw home"><span class="mark">🦞</span><span>Awesome Claw</span></a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="https://github.com/awesome-claw/awesome-claw">Directory</a>
+      <a href="https://github.com/awesome-claw/awesome-claw/issues/new/choose">Suggest</a>
+      <a href="https://x.com/awesomeclawhub">Follow</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div>
+        <div class="eyebrow">Community-curated · Independent · OpenClaw ecosystem</div>
+        <h1>Discover what people are building with OpenClaw.</h1>
+        <p class="lead">Awesome Claw collects useful OpenClaw resources, skills, plugins, integrations, deployment templates, workflows, and community projects in one place.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/awesome-claw/awesome-claw">Browse the directory</a>
+          <a class="btn secondary" href="https://github.com/awesome-claw/awesome-claw/issues/new/choose">Suggest a project</a>
+        </div>
+        <p class="fineprint">Early, useful, and growing. Not an official OpenClaw project unless explicitly stated by OpenClaw maintainers.</p>
+      </div>
+
+      <aside class="terminal-card" aria-label="Project links preview">
+        <div class="dots"><span></span><span></span><span></span></div>
+        <div class="terminal-body">
+          <div><span class="prompt">awesome-claw</span> list --featured</div>
+          <br>
+          <div class="comment"># Start here</div>
+          <div class="linkline">github.com/openclaw/openclaw</div>
+          <div class="linkline">docs.openclaw.ai/tools/skills</div>
+          <div class="linkline">clawhub.ai</div>
+          <br>
+          <div class="comment"># Help grow the map</div>
+          <div class="linkline">github.com/awesome-claw/awesome-claw</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="wrap section">
+      <h2>What’s inside</h2>
+      <p class="intro">A practical map for OpenClaw users and builders — from first setup to serious integrations.</p>
+      <div class="grid">
+        <article class="card"><strong>Official resources</strong><p>Core repo, docs, Discord, ClawHub, and important setup references.</p></article>
+        <article class="card"><strong>Skills and plugins</strong><p>Directories, guides, and integrations that extend what OpenClaw can do.</p></article>
+        <article class="card"><strong>Channels</strong><p>Telegram, Discord, WhatsApp, and other ways to bring agents into real conversations.</p></article>
+        <article class="card"><strong>Coding agents and ACP</strong><p>Resources for connecting OpenClaw to agent harnesses and coding workflows.</p></article>
+        <article class="card"><strong>Deployment templates</strong><p>Railway, Northflank, DigitalOcean, Zeabur, and other hosting paths.</p></article>
+        <article class="card"><strong>Examples and learning</strong><p>Real workflows, troubleshooting, security guidance, and community experiments.</p></article>
+      </div>
+    </section>
+
+    <section class="wrap section" id="recent">
+      <h2>Recently added</h2>
+      <p class="intro">Fresh additions from the growing OpenClaw ecosystem. Browse the full directory for the complete list.</p>
+      <div class="featured-list">
+        <a class="featured-item" href="https://clawhub.ai/skills/openclaw-cli"><span>Skill</span><strong>OpenClaw CLI Skill</strong><p>Operate and troubleshoot OpenClaw CLI, gateway, channels, nodes, models, plugins, and health workflows.</p></a>
+        <a class="featured-item" href="https://github.com/larksuite/openclaw-lark"><span>Plugin</span><strong>OpenClaw Lark/Feishu Plugin</strong><p>Official Lark/Feishu Open Platform plugin for messages, docs, bases, sheets, calendars, and tasks.</p></a>
+        <a class="featured-item" href="https://github.com/cloudflare/moltworker"><span>Deployment</span><strong>OpenClaw on Cloudflare Workers</strong><p>Experimental proof of concept for running OpenClaw in Cloudflare Sandbox and Workers infrastructure.</p></a>
+        <a class="featured-item" href="https://github.com/hesamsheikh/awesome-openclaw-usecases"><span>Workflows</span><strong>Awesome OpenClaw Use Cases</strong><p>Community collection of practical OpenClaw workflows and real-life use cases.</p></a>
+        <a class="featured-item" href="https://github.com/NevaMind-AI/memU"><span>Memory</span><strong>memU</strong><p>Memory framework for always-on proactive agents, with OpenClaw-oriented assistant examples.</p></a>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="banner">
+        <div>
+          <h2 style="margin:0;font-size:clamp(1.5rem,3vw,2.2rem);">Building something for OpenClaw?</h2>
+          <p>Submit a skill, plugin, integration, workflow, deployment template, guide, or community project.</p>
+        </div>
+        <a class="btn primary" href="https://github.com/awesome-claw/awesome-claw/issues/new/choose">Submit it</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div>Follow <a href="https://x.com/awesomeclawhub">@awesomeclawhub</a> · Contribute on <a href="https://github.com/awesome-claw/awesome-claw">GitHub</a> · No paid placement is currently sold.</div>
+  </footer>
+</body>
+</html>

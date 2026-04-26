@@ -1,0 +1,59 @@
+name: Suggest a project
+about: Suggest an OpenClaw ecosystem project for Awesome Claw
+labels: [suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a project. Please make sure it is directly relevant to OpenClaw users or builders.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: Example Project
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      placeholder: https://github.com/example/project
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - Official Resources
+        - Concepts and Guides
+        - Skills
+        - Plugins and Integrations
+        - Coding Agents and ACP
+        - Deployment and Hosting
+        - Examples and Workflows
+        - Community Projects
+        - Learning Resources
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be included?
+      description: Explain how it helps OpenClaw users or builders.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: The project is directly relevant to OpenClaw or its ecosystem.
+          required: true
+        - label: The link works and points to the official project/source.
+          required: true
+        - label: The project has useful documentation or a clear README.
+          required: true
+        - label: This is not spam, affiliate marketing, or undisclosed paid placement.
+          required: true
