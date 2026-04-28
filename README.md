@@ -83,6 +83,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [Awesome OpenClaw Use Cases](https://github.com/hesamsheikh/awesome-openclaw-usecases) - Community collection of practical OpenClaw workflows and real-life use cases.
 
 ## Community Projects
+- [OpenClaw Control Center](https://github.com/TianyiDataScience/openclaw-control-center) - Read-only-first local control center for OpenClaw observability and operations.
 
 - [memU](https://github.com/NevaMind-AI/memU) - Memory framework for always-on proactive agents, with OpenClaw-oriented assistant examples.
 
