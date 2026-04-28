@@ -67,6 +67,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [OpenClaw ACP CLI](https://docs.openclaw.ai/cli/acp) - Documentation for connecting OpenClaw to ACP-compatible clients.
 
 ## Deployment and Hosting
+- [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) - Run OpenClaw more securely inside NVIDIA OpenShell with managed inference.
 
 - [Arjun Komath OpenClaw Railway Template](https://github.com/arjunkomath/openclaw-railway-template) - One-click Railway deployment template for OpenClaw.
 - [CodeTitlan OpenClaw Railway Template](https://github.com/codetitlan/openclaw-railway-template) - Railway template for deploying OpenClaw infrastructure.
