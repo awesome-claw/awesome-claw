@@ -49,6 +49,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [Last 30 Days](https://github.com/mvanhorn/last30days-skill) - OpenClaw-compatible skill for multi-source recent research across Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web, scored by engagement and recency.
 
 ## Plugins and Integrations
+- [Clawith](https://github.com/dataelement/Clawith) - OpenClaw for Teams / multi-agent collaboration platform.
 
 - [Plugin Tools](https://docs.openclaw.ai/tools/plugin) - Documentation for OpenClaw plugin-based tool integrations.
 - [Composio OpenClaw Toolkit](https://composio.dev/toolkits/composio/framework/openclaw) - Toolkit page for connecting OpenClaw-style agents to Composio-managed app integrations.
