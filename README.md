@@ -46,6 +46,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [OpenClaw Skills Guide](https://docs.openclaw.ai/tools/skills) - Documentation for creating and using OpenClaw skills.
 - [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Community-maintained collection of categorized OpenClaw skills.
 - [OpenClaw CLI Skill](https://clawhub.ai/skills/openclaw-cli) - ClawHub skill for operating and troubleshooting OpenClaw CLI, gateway, channel, node, model, plugin, and health workflows.
+- [Last 30 Days](https://github.com/mvanhorn/last30days-skill) - OpenClaw-compatible skill for multi-source recent research across Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web, scored by engagement and recency.
 
 ## Plugins and Integrations
 
