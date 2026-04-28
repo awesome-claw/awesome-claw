@@ -77,6 +77,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [OpenClaw on Cloudflare Workers](https://github.com/cloudflare/moltworker) - Experimental proof of concept for running OpenClaw in Cloudflare Sandbox and Workers infrastructure.
 
 ## Examples and Workflows
+- [OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL) - Train personalized OpenClaw agents from conversational feedback / RL workflows.
 
 - [OpenClaw Status Command](https://docs.openclaw.ai/cli/status) - Reference for checking OpenClaw installation, gateway, channel, and session status.
 - [Security Audit](https://docs.openclaw.ai/gateway/security) - Security guidance for auditing and hardening OpenClaw setups.
