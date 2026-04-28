@@ -84,6 +84,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [Awesome OpenClaw Use Cases](https://github.com/hesamsheikh/awesome-openclaw-usecases) - Community collection of practical OpenClaw workflows and real-life use cases.
 
 ## Community Projects
+- [OpenClaw Mission Control](https://github.com/abhi1693/openclaw-mission-control) - Operations dashboard for OpenClaw teams, approvals, gateway management, and auditability.
 
 - [memU](https://github.com/NevaMind-AI/memU) - Memory framework for always-on proactive agents, with OpenClaw-oriented assistant examples.
 
