@@ -48,6 +48,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [OpenClaw CLI Skill](https://clawhub.ai/skills/openclaw-cli) - ClawHub skill for operating and troubleshooting OpenClaw CLI, gateway, channel, node, model, plugin, and health workflows.
 
 ## Plugins and Integrations
+- [Clawith](https://github.com/dataelement/Clawith) - OpenClaw for Teams / multi-agent collaboration platform.
 
 - [Plugin Tools](https://docs.openclaw.ai/tools/plugin) - Documentation for OpenClaw plugin-based tool integrations.
 - [Composio OpenClaw Toolkit](https://composio.dev/toolkits/composio/framework/openclaw) - Toolkit page for connecting OpenClaw-style agents to Composio-managed app integrations.
@@ -66,6 +67,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [OpenClaw ACP CLI](https://docs.openclaw.ai/cli/acp) - Documentation for connecting OpenClaw to ACP-compatible clients.
 
 ## Deployment and Hosting
+- [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) - Run OpenClaw more securely inside NVIDIA OpenShell with managed inference.
 
 - [Arjun Komath OpenClaw Railway Template](https://github.com/arjunkomath/openclaw-railway-template) - One-click Railway deployment template for OpenClaw.
 - [CodeTitlan OpenClaw Railway Template](https://github.com/codetitlan/openclaw-railway-template) - Railway template for deploying OpenClaw infrastructure.
@@ -77,6 +79,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [OpenClaw on Cloudflare Workers](https://github.com/cloudflare/moltworker) - Experimental proof of concept for running OpenClaw in Cloudflare Sandbox and Workers infrastructure.
 
 ## Examples and Workflows
+- [OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL) - Train personalized OpenClaw agents from conversational feedback / RL workflows.
 
 - [OpenClaw Status Command](https://docs.openclaw.ai/cli/status) - Reference for checking OpenClaw installation, gateway, channel, and session status.
 - [Security Audit](https://docs.openclaw.ai/gateway/security) - Security guidance for auditing and hardening OpenClaw setups.
