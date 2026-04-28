@@ -48,6 +48,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [OpenClaw CLI Skill](https://clawhub.ai/skills/openclaw-cli) - ClawHub skill for operating and troubleshooting OpenClaw CLI, gateway, channel, node, model, plugin, and health workflows.
 
 ## Plugins and Integrations
+- [Clawith](https://github.com/dataelement/Clawith) - OpenClaw for Teams / multi-agent collaboration platform.
 
 - [Plugin Tools](https://docs.openclaw.ai/tools/plugin) - Documentation for OpenClaw plugin-based tool integrations.
 - [Composio OpenClaw Toolkit](https://composio.dev/toolkits/composio/framework/openclaw) - Toolkit page for connecting OpenClaw-style agents to Composio-managed app integrations.
