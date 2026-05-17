@@ -56,6 +56,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [Ollama OpenClaw Integration](https://docs.ollama.com/integrations/openclaw) - Ollama documentation for launching OpenClaw with local model support.
 - [AI/ML API OpenClaw Quickstart](https://docs.aimlapi.com/quickstart/openclaw) - Provider quickstart for configuring OpenClaw with AI/ML API models.
 - [OpenClaw Lark/Feishu Plugin](https://github.com/larksuite/openclaw-lark) - Official Lark/Feishu Open Platform plugin for connecting OpenClaw to messages, docs, bases, sheets, calendars, and tasks.
+- [ClawLens](https://github.com/nk3750/clawlens) - Local-first OpenClaw plugin for agent observability, hash-chain audit trails, risk scoring, and block/approval/notify guardrails.
 
 ## Coding Agents and ACP
 
