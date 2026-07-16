@@ -47,6 +47,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 - [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Community-maintained collection of categorized OpenClaw skills.
 - [OpenClaw CLI Skill](https://clawhub.ai/skills/openclaw-cli) - ClawHub skill for operating and troubleshooting OpenClaw CLI, gateway, channel, node, model, plugin, and health workflows.
 - [Last 30 Days](https://github.com/mvanhorn/last30days-skill) - OpenClaw-compatible skill for multi-source recent research across Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web, scored by engagement and recency.
+- [MindVault](https://github.com/zhouxin121/mindvault) - Conversation archiving and DRAS-V evolution engine for OpenClaw, enabling persistent cross-session memory with multi-layered analysis and self-improvement loops.
 
 ## Plugins and Integrations
 
