@@ -50,12 +50,13 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 
 ## Plugins and Integrations
 
-- [Plugin Tools](https://docs.openclaw.ai/tools/plugin) - Documentation for OpenClaw plugin-based tool integrations.
-- [Composio OpenClaw Toolkit](https://composio.dev/toolkits/composio/framework/openclaw) - Toolkit page for connecting OpenClaw-style agents to Composio-managed app integrations.
-- [OpenClaw Composio Plugin](https://github.com/ComposioHQ/openclaw-composio) - Composio plugin repository for OpenClaw integrations.
-- [Ollama OpenClaw Integration](https://docs.ollama.com/integrations/openclaw) - Ollama documentation for launching OpenClaw with local model support.
 - [AI/ML API OpenClaw Quickstart](https://docs.aimlapi.com/quickstart/openclaw) - Provider quickstart for configuring OpenClaw with AI/ML API models.
+- [Composio OpenClaw Toolkit](https://composio.dev/toolkits/composio/framework/openclaw) - Toolkit page for connecting OpenClaw-style agents to Composio-managed app integrations.
+- [Ollama OpenClaw Integration](https://docs.ollama.com/integrations/openclaw) - Ollama documentation for launching OpenClaw with local model support.
+- [OpenClaw Composio Plugin](https://github.com/ComposioHQ/openclaw-composio) - Composio plugin repository for OpenClaw integrations.
 - [OpenClaw Lark/Feishu Plugin](https://github.com/larksuite/openclaw-lark) - Official Lark/Feishu Open Platform plugin for connecting OpenClaw to messages, docs, bases, sheets, calendars, and tasks.
+- [Plugin Tools](https://docs.openclaw.ai/tools/plugin) - Documentation for OpenClaw plugin-based tool integrations.
+- [TweetClaw](https://github.com/Xquik-dev/tweetclaw) - OpenClaw plugin for searching X posts and replies, publishing with approval, exporting followers, managing media, monitoring posts, and running giveaway draws through Xquik. Not affiliated with X Corp.
 
 ## Coding Agents and ACP
 
