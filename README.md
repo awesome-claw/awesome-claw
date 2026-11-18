@@ -86,6 +86,7 @@ Community-curated and independent. Not an official OpenClaw project unless expli
 ## Community Projects
 
 - [memU](https://github.com/NevaMind-AI/memU) - Memory framework for always-on proactive agents, with OpenClaw-oriented assistant examples.
+- [ControlClaw](https://github.com/madarco/controlclaw) - Open-source AI firewall and control panel for OpenClaw that checks requests and MCP calls against plain-English rules, keeps passwords and API keys off the agents, and holds risky actions for approval.
 
 ## Learning Resources
 
